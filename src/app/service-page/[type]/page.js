@@ -37,7 +37,7 @@ const ServicePage = () => {
 
                     <ul className='mb_40'>
                         <li className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_12'>Online testing of steam relief safety valves is an accepted method of Relief Valve testing for all type of safety relief valves.</li>
-                        <li className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_12'>A load cell is mounted with electronic DC moter puller on the valve's stem top.</li>
+                        <li className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_12'>{`A load cell is mounted with electronic DC moter puller on the valve's stem top.`}</li>
                         <li className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_12'>This pulls the stem thereby trying to lift the disc.</li>
                         <li className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_12'>The net result is that the valve pops at a pressure set pressure less electronic pressure calculated on the basis of disc area.</li>
                         <li className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_12'>We do not have to actually raise system pressure to the set point of the Relief Valve.</li>
@@ -306,13 +306,13 @@ const ServicePage = () => {
                     <h5 className='fontSize18 fontWeight600 blackText_Clr mb_12'>When Hot Tapping Makes the Difference: Minimizing Disruption and Maximizing Efficiency</h5>
 
 
-                    <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_16'>In the world of pipeline management, efficiency and minimal disruption are key. That's where hot tapping comes in, a specialized technique that allows you to connect to existing pipelines without interrupting the flow. This blog post dives into the benefits of hot tapping and the scenarios where it shines.</p>
+                    <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_16'>{`In the world of pipeline management, efficiency and minimal disruption are key. That's where hot tapping comes in, a specialized technique that allows you to connect to existing pipelines without interrupting the flow. This blog post dives into the benefits of hot tapping and the scenarios where it shines.`}</p>
 
-                    <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_16'><span className='fontWeight600'>Uninterrupted Operations:</span> Imagine needing to upgrade your pipeline system. Traditionally, this would mean shutting down the entire operation, resulting in lost production, frustrated customers, and significant financial losses. Enter hot tapping. This innovative method lets you seamlessly add new branches or isolate sections for maintenance all while the pipeline remains active. It's like performing surgery on a running engine – a feat of engineering brilliance.</p>
+                    <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_16'><span className='fontWeight600'>Uninterrupted Operations:</span> {`Imagine needing to upgrade your pipeline system. Traditionally, this would mean shutting down the entire operation, resulting in lost production, frustrated customers, and significant financial losses. Enter hot tapping. This innovative method lets you seamlessly add new branches or isolate sections for maintenance all while the pipeline remains active. It's like performing surgery on a running engine – a feat of engineering brilliance.`}</p>
 
                     <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_16'><span className='fontWeight600'>Safety and Environmental Benefits:</span> Beyond avoiding costly downtime, hot tapping also prioritizes safety and environmental responsibility. By eliminating the need for depressurization, the risks associated with handling highly pressurized systems are significantly reduced. Additionally, hot tapping minimizes product loss and prevents harmful gas emissions, making it a sustainable choice for your business and the planet.</p>
 
-                    <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_34'><span className='fontWeight600'>Cost-Effective Efficiency:</span> Let's talk numbers. By eliminating the need for lengthy shutdowns and complex rewelding procedures, hot tapping offers tangible cost savings. Less planning, reduced manpower requirements, and faster project completion times all add up to a more efficient and financially advantageous solution.</p>
+                    <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_34'><span className='fontWeight600'>Cost-Effective Efficiency:</span>{`Let's talk numbers. By eliminating the need for lengthy shutdowns and complex rewelding procedures, hot tapping offers tangible cost savings. Less planning, reduced manpower requirements, and faster project completion times all add up to a more efficient and financially advantageous solution.`}</p>
 
 
 
@@ -335,7 +335,7 @@ const ServicePage = () => {
 
                             <h5 className='fontSize16 fontWeight600 blackText_Clr mb_12'>But Is Hot Tapping Always the Answer?</h5>
 
-                            <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_16'>While hot tapping boasts impressive advantages, it's crucial to acknowledge that it's not a one-size-fits-all solution. This complex procedure requires extensive expertise and specialized equipment. Therefore, it's essential to carefully evaluate your specific needs and consider alternative methods before making a decision. Hot tapping thrives when:</p>
+                            <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_16'>{`While hot tapping boasts impressive advantages, it's crucial to acknowledge that it's not a one-size-fits-all solution. This complex procedure requires extensive expertise and specialized equipment. Therefore, it's essential to carefully evaluate your specific needs and consider alternative methods before making a decision. Hot tapping thrives when:`}</p>
 
                             <ul className='mb_40'>
                                 <li className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_12'>Shutting down the pipeline is impractical or financially detrimental.</li>
@@ -345,7 +345,7 @@ const ServicePage = () => {
 
                             <h5 className='fontSize16 fontWeight600 blackText_Clr mb_12'>Conclusion</h5>
 
-                            <p className='fontSize16 fontWeight400 shearwaterBlackText_clr'>Hot tapping is more than just a fancy technique; it's a game-changer in the world of pipeline management. By prioritizing efficiency, safety, and sustainability, it offers a clear advantage for maintaining and upgrading your system with minimal disruption. If you're looking for a way to keep your operations flowing while optimizing your pipeline network, hot tapping might just be the answer you've been searching for</p>
+                            <p className='fontSize16 fontWeight400 shearwaterBlackText_clr'>{`Hot tapping is more than just a fancy technique; it's a game-changer in the world of pipeline management. By prioritizing efficiency, safety, and sustainability, it offers a clear advantage for maintaining and upgrading your system with minimal disruption. If you're looking for a way to keep your operations flowing while optimizing your pipeline network, hot tapping might just be the answer you've been searching for`}</p>
 
 
                         </div>
