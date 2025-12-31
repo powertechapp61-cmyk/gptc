@@ -593,6 +593,12 @@ const GalleryPage = () => {
             thumb: "/assets/img/gallery_img/EWA valve fixing completed and collected 1valve for servicing 2.jpg",
             caption: "EWA valve fixing completed and collected 1valve for servicing",
         },
+        {
+            type: "image",
+            src: "/assets/img/gallery_img/site-visit-rabigh.jpeg",
+            thumb: "/assets/img/gallery_img/site-visit-rabigh.jpeg",
+            caption: "Site Visit Rabigh",
+        },
     ];
 
     return (

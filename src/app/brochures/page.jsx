@@ -1,6 +1,13 @@
+"use client";
 import React from 'react'
 
 const page = () => {
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "/assets/ppt/pipeline_intervention_presentation.pptx"; // public path
+        link.download = "pipeline_intervention_presentation.pptx";
+        link.click();
+    };
     return (
         <>
             <section className='hero-banner'>
@@ -97,6 +104,16 @@ const page = () => {
 
                             </div>
                         </div>
+                            <div className='col-lg-3'>
+                                <div className='brochure_item' onClick={handleDownload} style={{ cursor: 'pointer' }}>
+                                    <div>
+                                        <img src="/assets/img/pdf-download.svg" alt="pdf download" />
+                                    </div>
+                                    <div><h5>Pipeline Intervention</h5></div>
+
+
+                                </div>
+                            </div>
                     </div>
                     </div>
                 </div>

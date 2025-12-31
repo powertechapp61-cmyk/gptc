@@ -364,11 +364,13 @@ body {
 .whiteFilter {
     filter: var(--whiteFilter);
 }
+
 .narenjiOrangeText_clr {
     color: var(--narenjiOrange_clr);
     line-height: 1.5;
     margin: 0px;
 }
+
 .spitsbergenBlueText_clr {
     color: var(--spitsbergenBlue_clr);
     line-height: 1.5;
@@ -2556,6 +2558,7 @@ ul.stscTab li button:hover {
 
 .leadershipteamItem {
     cursor: pointer;
+margin-bottom: 34px;
 }
 
 .leadershipteam-info p {
@@ -2819,16 +2822,22 @@ ul.stscTab li button:hover {
     // right: 0;    
     margin-top: -120px;
     margin-bottom: 24px;
-}
-
-
-.groupCompanylogo img {
     border: 1px solid rgb(234, 235, 237);
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background: #fff;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.groupCompanylogo img {
+    width: 80px;
+
+    // padding: 10px;
     object-fit: cover;
 }
 
@@ -3270,26 +3279,29 @@ ul.stscTab li button:hover {
     padding: 4px 12px;
 }
 
-.esteemed_clientlist{
+.esteemed_clientlist {
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 16px;
 }
-.esteemed_clientlist>div{
+
+.esteemed_clientlist>div {
     background: #fff;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
 }
+
 .esteemed_clientlist>div img {
     width: 120px;
 }
 
 @media (max-width: 767px),
 (min-width: 577px) and (max-width: 768px) {
-    .esteemed_clientlist{
+    .esteemed_clientlist {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
     .serviceContentpart {
         padding: 40px 0;
     }
@@ -3797,9 +3809,10 @@ ul.stscTab li button:hover {
     .addressItem {
         height: auto;
     }
-        .leadsGeneration_sec {
-            padding: 0 0 40px;
-        }
+
+    .leadsGeneration_sec {
+        padding: 0 0 40px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1026px) {
@@ -3888,16 +3901,17 @@ ul.stscTab li button:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-        .mb_80 {
-                margin-bottom: 40px !important;
-            }
-        
-            .addressItem {
-                height: auto;
-            }
-                        .leadsGeneration_sec {
-                            padding: 0 0 40px;
-                        }
+    .mb_80 {
+        margin-bottom: 40px !important;
+    }
+
+    .addressItem {
+        height: auto;
+    }
+
+    .leadsGeneration_sec {
+        padding: 0 0 40px;
+    }
 
 
     .gallerySec .lg-react-element {

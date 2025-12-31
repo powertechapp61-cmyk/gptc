@@ -1,5 +1,5 @@
 "use client";
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Modal } from "react-bootstrap";
 
 const LeaderShipTeam = () => {
@@ -53,6 +53,13 @@ at Power Tech Group Companies, previously worked with clients like Reddit and Ax
 sharp business acumen, industry certifications, and multiple
 accolades for excellence. A proactive team player
 committed to innovation and customer success.` },
+
+    {
+      id: 5, Img: "/assets/img/hakkim-mohamed-ibrahim.jpeg", Name: "Hakkim Mohamed Ibrahim", Role: "Deputy General Manager - SamTech KSA",
+
+      content: `With over 20+ years of experience working with leading companies across Bahrain, UAE, and Saudi Arabia, Hakkim ‘Mohamed Ibrahim has built a strong reputation for delivering high-quality engineering and project execution. His career includes major roles in pumping stations, electrical substations, power plant, high-rise building projects, and technical manpower provisioning Driven hardworking, and deeply committed to excellence, he consistently ensures that every project meets the highest technical and safety standards. His ability to manage diverse teams and coordinate complex systems makes him a valuable leader in the engineering and construction industry.` },
+
+
   ];
   return (
     <>
@@ -71,7 +78,7 @@ committed to innovation and customer success.` },
           <div className='row'>
             {leadershipteamModals.map((modal) => (
               <div className='col-lg-3' key={modal.id}>
-                <div className='leadershipteamItem mobspaceMb_34' onClick={() => setShowModal(modal.id)}>
+                <div className='leadershipteamItem' onClick={() => setShowModal(modal.id)}>
                   <div className='leadershipteam-img'>
                     <img src={modal.Img} alt={modal.Name} />
                   </div>

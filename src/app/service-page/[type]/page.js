@@ -6,6 +6,14 @@ import Link from 'next/link';
 
 
 const ServicePage = () => {
+
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "/assets/ppt/pipeline_intervention_presentation.pptx"; // public path
+        link.download = "pipeline_intervention_presentation.pptx";
+        link.click();
+    };
+    
     const pathname = usePathname()
     const params = useParams()
     const pagename = params.type;
@@ -345,8 +353,9 @@ const ServicePage = () => {
 
                             <h5 className='fontSize16 fontWeight600 blackText_Clr mb_12'>Conclusion</h5>
 
-                            <p className='fontSize16 fontWeight400 shearwaterBlackText_clr'>{`Hot tapping is more than just a fancy technique; it's a game-changer in the world of pipeline management. By prioritizing efficiency, safety, and sustainability, it offers a clear advantage for maintaining and upgrading your system with minimal disruption. If you're looking for a way to keep your operations flowing while optimizing your pipeline network, hot tapping might just be the answer you've been searching for`}</p>
+                            <p className='fontSize16 fontWeight400 shearwaterBlackText_clr mb_24'>{`Hot tapping is more than just a fancy technique; it's a game-changer in the world of pipeline management. By prioritizing efficiency, safety, and sustainability, it offers a clear advantage for maintaining and upgrading your system with minimal disruption. If you're looking for a way to keep your operations flowing while optimizing your pipeline network, hot tapping might just be the answer you've been searching for`}</p>
 
+                            <button className='mainbtn' onClick={handleDownload} style={{ cursor: 'pointer' }}>Download Pipeline Intervention PDF</button>
 
                         </div>
                     </div>

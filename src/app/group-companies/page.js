@@ -44,7 +44,7 @@ const page = () => {
                                         <img src="/assets/img/ptd.png" alt='ptd' />
                                     </div>
 
-                                    <h2> Sam Technical Service Contracting Est W.L.L, Bahrain</h2>
+                                    <h2>Power Tech Development W.L.L, Bahrain</h2>
                                     <p> Operation & Maintenance of Power & Water, oil & Gas Plants & EPC Contractors & Human Resource Providers</p>
 
                                 </div>
@@ -64,7 +64,7 @@ const page = () => {
 
                                     </div>
                                     <div>
-                                        <Link href="#">
+                                        <Link href="https://www.powertechdevelopment.com/index.php" target='_blank'>
                                             <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                         </Link>
                                     </div>
@@ -97,7 +97,7 @@ const page = () => {
 
                                     </div>
                                     <div>
-                                        <Link href="#">
+                                        <Link href="https://gptcae.com" target='_blank' >
                                             <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                         </Link>
                                     </div>
@@ -111,7 +111,7 @@ const page = () => {
                         <div className='groupCompanyItem'>
                             <div>
                                 <div className='groupCompanylogo'>
-                                        <img src="/assets/img/stsc.png" alt='stsc' />
+                                        <img src="/assets/img/sam_logo.png" alt='stsc' />
                                 </div>
 
                                 <h2> SAM Technical Service Contracting Est, Saudi Arabia</h2>
@@ -132,7 +132,7 @@ const page = () => {
 
                                 </div>
                                 <div>
-                                    <Link href="#">
+                                        <Link href="https://samtechsa.com" target='_blank' >
                                         <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                     </Link>
                                 </div>
@@ -168,7 +168,7 @@ const page = () => {
 
                             </div>
                             <div>
-                                <Link href="#">
+                                        <Link href="https://www.cpdti.in" target='_blank' >
                                     <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                 </Link>
                             </div>
@@ -204,7 +204,7 @@ const page = () => {
 
                             </div>
                             <div>
-                                <Link href="#">
+                                        <Link href="https://pemiindia.com" target='_blank' >
                                     <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                 </Link>
                             </div>
@@ -238,7 +238,7 @@ const page = () => {
 
                             </div>
                             <div>
-                                <Link href="#">
+                                        <Link href="https://www.powertechdevelopment.com" target='_blank' >
                                     <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                 </Link>
                             </div>
@@ -272,7 +272,7 @@ const page = () => {
 
                             </div>
                             <div>
-                                <Link href="#">
+                                        <Link href=" https://ptijobs.in" target='_blank' >
                                     <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                 </Link>
                             </div>
@@ -308,7 +308,7 @@ const page = () => {
 
                             </div>
                             <div>
-                                <Link href="#">
+                                        <Link href="https://www.powertechdevelopment.com" target='_blank'>
                                     <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                 </Link>
                             </div>
@@ -342,7 +342,7 @@ const page = () => {
 
                             </div>
                             <div>
-                                <Link href="#">
+                                        <Link href="https://powertechtesting.com" target='_blank'>
                                     <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                 </Link>
                             </div>
@@ -379,7 +379,7 @@ const page = () => {
 
                             </div>
                             <div>
-                                <Link href="#">
+                                        <Link href="https://gptcae.com" target='_blank'>
                                     <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                 </Link>
                             </div>
@@ -414,7 +414,7 @@ const page = () => {
 
                             </div>
                             <div>
-                                <Link href="#">
+                                        <Link href="https://www.powertechdevelopment.com" target='_blank'>
                                     <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                 </Link>
                             </div>
@@ -449,7 +449,7 @@ const page = () => {
 
                                 </div>
                                 <div>
-                                    <Link href="#">
+                                        <Link href="https://jamiaabdussalam.org" target='_blank'>
                                         <img className='width34px' src="/assets/img/link.svg" alt='link' />
                                     </Link>
                                 </div>
