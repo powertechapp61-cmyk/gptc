@@ -16,10 +16,10 @@
     "lg-video": "^1.4.0",
     "lg-zoom": "^1.3.0",
     "lightgallery": "^2.9.0",
-    "next": "15.5.4",
-    "react": "19.1.0",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
     "react-bootstrap": "^2.10.10",
-    "react-dom": "19.1.0",
+    "react-dom": "^19.2.3",
     "react-fast-marquee": "^1.6.5",
     "react-slick": "^0.31.0",
     "sass": "^1.93.2",
@@ -29,6 +29,6 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.5.4"
+    "eslint-config-next": "^16.1.1"
   }
 }
