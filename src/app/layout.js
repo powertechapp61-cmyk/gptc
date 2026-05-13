@@ -74,10 +74,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   // const isMaintenance = process.env.NEXT_PUBLIC_MAINTENANCE === "true";
-  const isMaintenance = "true";
+  const isMaintenance = "false";
 
 
-  if (isMaintenance) {
+  if (isMaintenance === "true") {
     return (
       <html lang="en">
         <body>
